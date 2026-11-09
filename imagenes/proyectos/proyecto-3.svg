@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#EFE9DF"/>
+  <rect x="200" y="560" width="140" height="180" rx="16" fill="#6B7A4B"/><rect x="400" y="440" width="140" height="300" rx="16" fill="#6B7A4B"/><rect x="600" y="320" width="140" height="420" rx="16" fill="#C65D3B"/><rect x="800" y="180" width="140" height="560" rx="16" fill="#C65D3B"/>
+  <text x="60" y="850" font-family="Arial, sans-serif" font-size="28" fill="#1C1C1C" opacity=".45">Imagen de ejemplo · Proyecto 3</text>
+</svg>
