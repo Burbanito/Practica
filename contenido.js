@@ -26,7 +26,7 @@ const CONTENIDO = {
   disponibilidad: "Disponible para prácticas profesionales",
 
   // Nombre del archivo de tu foto (debe estar dentro de la carpeta "imagenes")
-  foto: "imagenes/foto-perfil.svg",
+  foto: "imagenes/foto-perfil.jpg",
 
   /* ------------------------------------------------------------------
      2. SOBRE MÍ

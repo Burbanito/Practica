@@ -58,7 +58,7 @@
 
   // ---------- Foto ----------
   var foto = $("foto");
-  foto.src = D.foto || "imagenes/foto-perfil.svg";
+  foto.src = D.foto || "imagenes/foto-perfil.jpg";
   foto.alt = "Foto de " + (D.nombre || "perfil");
 
   // ---------- Datos rápidos ----------

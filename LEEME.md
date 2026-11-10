@@ -12,7 +12,7 @@ Esta guía explica, paso a paso, cómo cambiar tu información, tus proyectos, t
 ├── index.html            (estructura de la página, no lo toques)
 ├── LEEME.md              (esta guía)
 ├── 📁 imagenes
-│   ├── foto-perfil.svg   ← tu foto (la vas a reemplazar)
+│   ├── foto-perfil.jpg   ← tu foto
 │   ├── icono.svg         (el iconito de la pestaña del navegador)
 │   └── 📁 proyectos      ← las imágenes de tus proyectos
 ├── 📁 documentos
@@ -158,17 +158,9 @@ certificaciones: [],
 ## 3. Cambiar tu foto
 
 1. Elige una foto vertical, con buena luz y fondo limpio. Tamaño recomendado: **800 × 1000 píxeles**.
-2. Llámala `foto-perfil.jpg` y guárdala en la carpeta `imagenes`.
-3. En `contenido.js`, cambia esta línea:
-
-   ```js
-   foto: "imagenes/foto-perfil.svg",
-   ```
-   por:
-   ```js
-   foto: "imagenes/foto-perfil.jpg",
-   ```
-4. Guarda, recarga y listo. Puedes borrar el archivo `foto-perfil.svg`.
+2. Llámala exactamente `foto-perfil.jpg`.
+3. Guárdala en la carpeta `imagenes`, **reemplazando** la que ya está.
+4. Recarga la página y listo. No tienes que cambiar nada en `contenido.js`.
 
 > La foto se recorta automáticamente con forma de arco. Procura que tu cara quede en la parte de arriba-centro.
 
