@@ -21,7 +21,7 @@ const CONTENIDO = {
   /* ------------------------------------------------------------------
      1. TUS DATOS PERSONALES
      ------------------------------------------------------------------ */
-  nombre: "Tu Nombre Apellido",
+  nombre: "Juan Manuel Burbano",
   frase: "Estudiante de Mercadeo y Publicidad apasionada por las marcas y el contenido digital.",
   disponibilidad: "Disponible para prácticas profesionales",
 
