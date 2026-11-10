@@ -1,92 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Burbanito</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <p class="logo">EditaYa!</p>
-                <nav>
-                    <a href="#somos-editaya">Sobre nosotros</a>
-                    <a href="#nuestros-programas">Quienes somos</a>
-                    <a href="#caracteristicas">Caracteristicas</a>
-                </nav>
-            </div>
-        </header>
-        <section id="hero">
-            <h1>Aprende a editar
-                <br>
-                con los mejores</h1>
-            <button>APLICA YA</button>
-        </section>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título y descripción que se ven en Google y al compartir el link -->
+  <title>Juan Manuel Burbano · Portafolio</title>
+  <meta name="description" content="Portafolio de Juan Manuel Burbano, estudiante de Mercadeo y Publicidad en Cali, Colombia. Estrategia de marca, redes sociales y marketing digital.">
+  <meta property="og:title" content="Juan Manuel Burbano · Portafolio">
+  <meta property="og:description" content="Estrategia de marca, redes sociales y marketing digital. Disponible para prácticas profesionales.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#FAFAF7">
+  <link rel="icon" href="imagenes/icono.svg" type="image/svg+xml">
 
-        <section id="somos-editaya">
-            <div class="container">
-                <div class="img-container"></div>
-                <h2>Somos
-                    <span class="color-acento">EditaYa!</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, animi
-                    aliquid iusto delectus modi repellat reiciendis aspernatur dicta illo facilis
-                    voluptate asperiores non cumque, magni ut corporis voluptatem suscipit
-                    similique?</p>
-            </div>
-        </section>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <section id="nuestros-programas">
-            <div class="container">
-                <h2>Nuestros programas</h2>
-                <div class="programas">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
 
-                    <div class="carta">
-                        <h3>Adobe Premiere Pro</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et adipisci
-                            repellat quo voluptas maiores repudiandae! Voluptates, placeat reprehenderit?
-                            Consequuntur, recusandae?</p>
-                        <button>+ Info</button>
-                    </div>
-                    <div class="carta">
-                        <h3>Adobe After Effects</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et adipisci
-                            repellat quo voluptas maiores repudiandae! Voluptates, placeat reprehenderit?
-                            Consequuntur, recusandae?</p>
-                        <button>+ Info</button>
-                    </div>
-                    <div class="carta">
-                        <h3>Adobe Photoshop e Illustrator</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et adipisci
-                            repellat quo voluptas maiores repudiandae! Voluptates, placeat reprehenderit?
-                            Consequuntur, recusandae?</p>
-                        <button>+ Info</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
 
-        <section id="caracteristicas">
-            <div class="container">
-            <ul>
-                <li>- 100% Online</li>
-                <li>- Flexibilidad de horarios</li>
-                <li>- Soporte 1:1</li>
-                <li>- Asistencia financiera</li>
-            </ul>
+  <!-- ============ MENÚ ============ -->
+  <header class="cabecera" id="cabecera">
+    <div class="contenedor cabecera__fila">
+      <a href="#inicio" class="logo" data-campo="nombre-corto">Portafolio</a>
+
+      <button class="menu-boton" id="menu-boton" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="menu" id="menu" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto" class="menu__destacado">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ 1. INICIO ============ -->
+    <section class="inicio" id="inicio">
+      <div class="contenedor inicio__grid">
+        <div class="inicio__texto">
+          <p class="estado aparecer"><span class="estado__punto"></span><span data-campo="disponibilidad"></span></p>
+          <h1 class="inicio__nombre aparecer" data-campo="nombre"></h1>
+          <p class="inicio__frase aparecer" data-campo="frase"></p>
+          <div class="inicio__botones aparecer">
+            <a href="#contacto" class="boton boton--principal">Contáctame</a>
+            <a href="#proyectos" class="boton boton--secundario">Ver proyectos</a>
+          </div>
         </div>
+        <div class="inicio__foto aparecer">
+          <img id="foto" src="" alt="" width="480" height="600">
         </div>
+      </div>
     </section>
 
-    <section id="final">
-        <h2>¿Listo para editar?</h2>
-        <button>Edita Ya!</button>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy;EditaYa2023</p>
+    <!-- ============ 2. SOBRE MÍ ============ -->
+    <section class="seccion" id="sobre-mi">
+      <div class="contenedor">
+        <p class="seccion__etiqueta aparecer">01 — Sobre mí</p>
+        <div class="sobre__grid">
+          <div>
+            <p class="sobre__parrafo aparecer" data-campo="sobreMi"></p>
+            <dl class="datos aparecer" id="datos"></dl>
+          </div>
+          <div>
+            <h2 class="subtitulo aparecer">Habilidades</h2>
+            <ul class="habilidades aparecer" id="habilidades"></ul>
+
+            <div id="bloque-certificaciones">
+              <h2 class="subtitulo aparecer">Certificaciones</h2>
+              <ul class="certificaciones" id="certificaciones"></ul>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </section>
+
+    <!-- ============ 3. PROYECTOS ============ -->
+    <section class="seccion seccion--suave" id="proyectos">
+      <div class="contenedor">
+        <p class="seccion__etiqueta aparecer">02 — Proyectos</p>
+        <h2 class="seccion__titulo aparecer">Trabajo seleccionado</h2>
+        <div class="proyectos" id="lista-proyectos"></div>
+      </div>
+    </section>
+
+    <!-- ============ 4. CONTACTO ============ -->
+    <section class="seccion" id="contacto">
+      <div class="contenedor contacto">
+        <p class="seccion__etiqueta aparecer">03 — Contacto</p>
+        <h2 class="contacto__titulo aparecer">¿Hablamos?</h2>
+        <p class="contacto__texto aparecer">Estoy buscando prácticas profesionales. Si crees que puedo aportar a tu equipo, escríbeme.</p>
+
+        <a class="contacto__correo aparecer" id="enlace-correo" href="#"></a>
+
+        <div class="contacto__redes aparecer" id="redes"></div>
+
+        <a class="boton boton--principal boton--grande aparecer" id="boton-cv" href="#" download>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          Descargar mi CV
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__fila">
+      <p>© <span id="anio"></span> <span data-campo="nombre"></span></p>
+      <p data-campo="ciudad"></p>
+    </div>
+  </footer>
+
+  <!-- ============ DETALLE DE PROYECTO (ventana emergente) ============ -->
+  <dialog class="detalle" id="detalle" aria-labelledby="detalle-titulo">
+    <button class="detalle__cerrar" id="detalle-cerrar" aria-label="Cerrar">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <div id="detalle-contenido"></div>
+  </dialog>
+
+  <!-- Primero tus datos, luego el código que los muestra -->
+  <script src="contenido.js"></script>
+  <script src="js/principal.js"></script>
 </body>
 </html>

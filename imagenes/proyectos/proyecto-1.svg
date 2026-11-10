@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#F3E3D9"/>
+  <circle cx="820" cy="380" r="260" fill="#C65D3B"/><rect x="200" y="200" width="360" height="360" rx="40" fill="#6B7A4B" opacity=".9"/>
+  <text x="60" y="850" font-family="Arial, sans-serif" font-size="28" fill="#1C1C1C" opacity=".45">Imagen de ejemplo · Proyecto 1</text>
+</svg>
